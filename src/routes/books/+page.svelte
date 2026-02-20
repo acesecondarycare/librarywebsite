@@ -1,5 +1,5 @@
 <script>
-	import { bookdata } from './data.js';
+	// import { bookdata } from './data.js';
 	export let data;
 
 	console.log(data);

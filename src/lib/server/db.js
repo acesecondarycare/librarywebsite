@@ -1,6 +1,6 @@
 import Database from 'better-sqlite3';
 
-const db = new Database('./bookdb.db', { verbose: console.log });
+const db = new Database('./bookdb.db', { readonly: true, verbose: console.log });
 // db.exec(
 // 	`CREATE TABLE "books2" (
 // 	"book_title"	TEXT NOT NULL,

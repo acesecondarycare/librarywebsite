@@ -35,7 +35,10 @@
 		"vite": "^7.2.6"
 	},
 	"dependencies": {
+		"@fontsource/bad-script": "^5.2.8",
 		"better-sqlite3": "^12.6.2",
-		"csv-parse": "^6.1.0"
+		"csv-parse": "^6.1.0",
+		"sass": "^1.97.3",
+		"svelte-use-form": "^3.0.1"
 	}
 }

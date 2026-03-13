@@ -1,8 +1,10 @@
 <script>
 	let { data } = $props();
 	let book = data.post;
+	import Navbar from '$lib/Components/Navbar.svelte';
 </script>
 
+<Navbar />
 <div class="catalog-page">
 	<h1>{book?.book_title}</h1>
 	<h2>by {book?.author}</h2>

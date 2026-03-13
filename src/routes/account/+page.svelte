@@ -1,4 +1,5 @@
 <script>
+	import Footer from '$lib/Components/Footer.svelte';
 	import Navbar from '$lib/Components/Navbar.svelte';
 	import { useForm, validators, HintGroup, Hint, email, required } from 'svelte-use-form';
 	const form = useForm();
@@ -19,6 +20,7 @@
 	</HintGroup>
 	<a href="/"><button disabled={!$form.valid}>Login... Finally 💀</button></a>
 </form>
+<Footer />
 
 <style>
 	:global(.touched:invalid) {

@@ -8,6 +8,7 @@
 	import { goto } from '$app/navigation';
 	import { page } from '$app/state';
 	import BookDisplay from '$lib/Components/book_display.svelte';
+	import Footer from '$lib/Components/footer.svelte';
 	// var filtered = bookdata.filter((book) => book.index < 20);
 </script>
 
@@ -31,6 +32,7 @@
 		<a href={`/books/${book.book_id}`}><BookDisplay {book} /></a>
 	{/each}
 </div>
+<Footer />
 
 <style>
 	a {
